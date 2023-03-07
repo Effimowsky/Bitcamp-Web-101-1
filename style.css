@@ -1,0 +1,94 @@
+body {
+  background-color: #0d192c;
+  display: flex;
+  justify-content: center;
+}
+.card-component {
+  background-color: #15263f;
+  border-radius: 15px;
+  padding: 24px;
+}
+.equilibrium-img {
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.equilibrium-img:hover {
+  cursor: pointer;
+}
+.card-component h1 {
+  color: white;
+  font-size: 22px;
+  margin-top: 24px;
+  font-family: "Outfit", sans-serif;
+  cursor: pointer;
+}
+.card-component h1:hover {
+  color: #00fff8;
+}
+.card-component p {
+  font-size: 18px;
+  color: #8bacd9;
+  margin-top: 16px;
+  width: 302px;
+  height: 52px;
+  font-family: "Outfit", sans-serif;
+}
+.ethernium-info {
+  display: flex;
+  margin-top: 24px;
+}
+.ethernium-info h2 {
+  margin-left: 6.49px;
+  line-height: 20px;
+  color: #00fff8;
+  font-family: "Outfit", sans-serif;
+}
+.ethernium-clock {
+  display: flex;
+}
+.ethernium-clock img {
+  margin-left: 112.15px;
+}
+.ethernium-clock h3 {
+  margin-left: 9.03px;
+  line-height: 20px;
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+}
+hr {
+  color: #2e405a;
+  margin-top: 24px;
+  height: 1px;
+  width: 302px;
+}
+.autor-of-creature {
+  display: flex;
+}
+.autor-of-creature img {
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
+  margin-top: 16px;
+}
+.autor-of-creature h2 {
+  margin-top: 22px;
+  margin-left: 16px;
+  font-size: 16px;
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+}
+.autor-of-creature h3 {
+  margin-top: 22px;
+  margin-left: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+.autor-of-creature h3:hover {
+  cursor: pointer;
+  color: #00fff8;
+}
