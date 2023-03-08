@@ -7,15 +7,33 @@ body {
   background-color: #15263f;
   border-radius: 15px;
   padding: 24px;
+  margin: 24.4vh;
 }
 .equilibrium-img {
   width: 302px;
   height: 302px;
   border-radius: 8px;
   text-align: center;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  cursor: pointer;
+  position: relative;
 }
-
-.equilibrium-img:hover {
+.middle-icon {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .equilibrium-img {
+  opacity: 0.5;
+}
+.container:hover .middle-icon {
+  opacity: 1;
   cursor: pointer;
 }
 .card-component h1 {
@@ -59,10 +77,10 @@ body {
   font-family: "Outfit", sans-serif;
 }
 hr {
-  color: #2e405a;
   margin-top: 24px;
   height: 1px;
-  width: 302px;
+  background-color: #2e405a;
+  border: none;
 }
 .autor-of-creature {
   display: flex;
