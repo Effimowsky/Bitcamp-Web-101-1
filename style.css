@@ -9,31 +9,41 @@ body {
   padding: 24px;
   margin: 24.4vh;
 }
+.container {
+  position: relative;
+}
 .equilibrium-img {
   width: 302px;
   height: 302px;
   border-radius: 8px;
   text-align: center;
   opacity: 1;
-  display: block;
+  display: inline;
   transition: 0.5s ease;
   cursor: pointer;
-  position: relative;
 }
-.middle-icon {
-  transition: 0.5s ease;
-  opacity: 0;
+.overly {
   position: absolute;
-  top: 52%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: inline-block;
+  transition: 0.3s ease;
+  background-color: #00fff8;
+  border-radius: 8px;
+  left: 0;
+}
+.eye-icon {
+  color: #ffffff;
+  position: absolute;
+  top: 52.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.container:hover .equilibrium-img {
-  opacity: 0.5;
-}
-.container:hover .middle-icon {
-  opacity: 1;
+
+.container:hover .overly {
+  opacity: 0.7;
   cursor: pointer;
 }
 .card-component h1 {
